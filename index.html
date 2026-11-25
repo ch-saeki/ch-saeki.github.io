@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>佐伯 和也 | Portfolio</title>
+<meta name="description" content="ソフトウェアエンジニア 佐伯 和也のポートフォリオ。テスト自動化基盤、C/C++/C#、Python などの開発経験。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <h1>佐伯 和也</h1>
+    <p class="role">ソフトウェアエンジニア</p>
+    <p class="lead">E2Eテスト自動化基盤の設計・運用と、C/C++・C#・Python によるアプリ／ライブラリ開発。2021年から個人事業主として活動。</p>
+    <nav>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#works">Works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="tags">
+      <li>TypeScript / Playwright</li><li>Ruby / Selenium</li><li>Python / Django</li>
+      <li>C / C++</li><li>C# (WPF)</li><li>gRPC</li>
+      <li>AWS (Lambda, S3, Secrets Manager)</li><li>GitHub Actions</li><li>Jenkins</li>
+      <li>Docker</li><li>Git / GitLab</li><li>Windows / macOS / Linux</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <article>
+      <h3>個人事業主（業務委託）<span>2021.05 – 現在</span></h3>
+      <p><strong>クラウド型会計システムのE2E自動テスト基盤</strong> — 設計・構築・運用・刷新</p>
+      <ul>
+        <li>1日2回リリースを支える約2,000 specのテストを運用</li>
+        <li>Ruby/Selenium → TypeScript/Playwright へ移行。アクセシビリティ属性ベースのロケーターへ刷新</li>
+        <li>テスト整理と合わせて実行時間を約40分 → 20分台へ短縮（約50%減）</li>
+        <li>Jenkins(EC2) → GitHub Actions(Self-hosted runner) + AWS へ移行。Slackから実行可能に</li>
+        <li>独自の非同期待機ヘルパー、内部API利用のテストデータ準備高速化、運用ガイドライン整備</li>
+      </ul>
+    </article>
+    <article>
+      <h3>株式会社エイアールティ<span>2013.06 – 2021.05</span></h3>
+      <ul>
+        <li><strong>開発部（2017–2021）</strong>：近赤外線カメラ撮影アプリ(C# WPF/C++)、カーナビ地図データアクセスライブラリ(C/C++)、細胞観察画像管理システムのIF設計(Python/Django/gRPC)、車載GUI 3DViewerのOpenGL ES 3.0移植(Raspberry Pi)、ロボット研磨システムのライブラリ開発</li>
+        <li><strong>システムテスティング部（2013–2016）</strong>：車載情報端末のシステム評価、CANoeによるCANテストツール開発</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="works">
+    <h2>Works</h2>
+    <div class="cards">
+      <div class="card"><h3>Saburi <small>Private</small></h3><p>サブスク管理Webアプリ。React/TypeScript SPA、Googleログイン、Cloudflare D1、Gemini API、Stripe、Gmail API</p></div>
+      <a class="card" href="https://github.com/ch-saeki/flexible-pass-gen"><h3>flexible-pass-gen</h3><p>Go 製パスワード生成ツール</p></a>
+      <a class="card" href="https://github.com/ch-saeki/es_speedtest"><h3>es_speedtest</h3><p>speedtest cli の結果を Elasticsearch に送るスクリプト</p></a>
+      <a class="card" href="https://github.com/ch-saeki/covid19-i18n-helper-niigata"><h3>covid19-i18n-helper-niigata</h3><p>新潟県 COVID-19 サイトの i18n 対応自動化スクリプト</p></a>
+      <a class="card" href="https://github.com/ch-saeki/instant-django"><h3>instant-django</h3><p>Django 用の簡易 CRUD アプリテンプレート</p></a>
+      <a class="card" href="https://github.com/ch-saeki/my-react-app-template"><h3>my-react-app-template</h3><p>React + TypeScript テンプレート</p></a>
+      <a class="card" href="https://github.com/ch-saeki/docker-compose-elasticsearch-kibana"><h3>docker-compose-elasticsearch-kibana</h3><p>Elasticsearch + Kibana の Docker Compose</p></a>
+    </div>
+    <p class="note">非公開リポジトリでの経験：Python（Selenium を使った Web 自動化・スクレイピング）、C++、Terraform による AWS 構成管理、TypeScript / React、Cloudflare。</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><a href="https://github.com/ch-saeki">github.com/ch-saeki</a></p>
+  </section>
+</main>
+
+<footer><div class="wrap">© 2026 Kazuya Saeki</div></footer>
+</body>
+</html>
