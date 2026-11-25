@@ -26,3 +26,7 @@ footer{margin-top:48px;padding:24px 0;border-top:1px solid var(--line);color:var
 .card small{font-size:.7rem;font-weight:400;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 6px;margin-left:6px}
 div.card:hover{border-color:var(--line)}
 .note{margin-top:20px;color:var(--muted);font-size:.9rem}
+.job{border-left:2px solid var(--line);padding-left:16px;margin:0 0 20px}
+.job h4{margin:0 0 4px;font-size:1rem}
+.job h4 span{display:block;font-size:.8rem;font-weight:400;color:var(--muted)}
+.job p{margin:0}
