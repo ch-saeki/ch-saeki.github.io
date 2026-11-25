@@ -30,3 +30,7 @@ div.card:hover{border-color:var(--line)}
 .job h4{margin:0 0 4px;font-size:1rem}
 .job h4 span{display:block;font-size:.8rem;font-weight:400;color:var(--muted)}
 .job p{margin:0}
+.sub{margin-top:32px}
+.oss{padding-left:0;list-style:none}
+.oss li{margin-bottom:8px}
+.oss span{font-size:.7rem;border:1px solid var(--line);border-radius:4px;padding:0 6px;color:var(--muted)}
